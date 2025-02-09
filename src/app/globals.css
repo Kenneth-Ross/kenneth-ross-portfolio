@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #1C1C1C;
     --foreground: #ededed;
   }
 }
@@ -18,4 +18,12 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("../Assets/PlayfairDisplay-VariableFont_wght.ttf");
+  font-style: normal;
+  font-weight: normal;
 }
